@@ -1,0 +1,90 @@
+/* CSS reset 
+	(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif; 
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+/* General styles 
+	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+.backgroundImage {
+	background-image: url("../img/background.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display:block;
+	position: absolute;
+	z-index: -999;
+}
+
+
+.resultsContainer {
+	margin-top: 10%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 5px solid red;*/
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 10px;
+	padding: 50px;
+	color: white;
+}
+
+.result {
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid  rgba(255, 255, 255, .5);
+	border-radius: 10px;
+	width: 40%;
+	margin-bottom: 10%;
+}
+
+.result:nth-child(even) {
+	margin-left: 19%;
+}
+
+.recipeName {
+	color: red;
+}
+
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+
+
+/* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
