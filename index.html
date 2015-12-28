@@ -4,36 +4,37 @@
 	<meta charset="UTF-8">
 	<title>Yummy</title>
 	<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<div class="backgroundImage"></div>
 	<header>
-		<h1>Yummy Search</h1>
-		<p>This is where you will search for yummy recipes.</p>
+
 	</header>
 
-	<section class="resultsContainer">
-		<div class="result">
-			<a href=""><h3 class="recipeName">Recipe Name</h3></a>
-			<img src="#">
-			<p>Cooking time: </p>
-			<p>Rating: </p>
-		</div>
-		<div class="result">
-			<a href=""><h3 class="recipeName">Recipe Name</h3></a>
-			<img src="#">
-			<p>Cooking time: </p>
-			<p>Rating: </p>
-		</div>
-		<div class="result">
-			<a href=""><h3 class="recipeName">Recipe Name</h3></a>
-			<img src="#">
-			<p>Cooking time: </p>
-			<p>Rating: </p>
-		</div>
-	</section>
-	
+	<div class="wrapper">
+
+		<section class="searchSection">
+			<h1>Yummy Search</h1>
+			<p>Use this website to search Yummly's recipes.</p>
+			<input class="textInput" type="text" placeholder="Enter search...">
+			<input class="searchButton" type="submit" placeholder="Search" >
+		</section>
+
+		<section class="resultsContainer">
+		<!--
+			<div class="result">
+				<a href=""><h3 class="recipeName">Recipe Name</h3></a>
+				<img src="#">
+				<p>Cooking time: </p>
+				<p>Rating: </p>
+			</div>
+		-->
+		</section>
+
+	</div>
 
 </body>
 </html>
