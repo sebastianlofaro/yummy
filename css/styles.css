@@ -16,6 +16,10 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tf
 	color: #f8ecdd;
 }
 
+ul {
+	list-style: none;
+}
+
 
 /* General styles 
 	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
@@ -89,8 +93,12 @@ h3 {
 	margin-bottom: 5%;
 }
 
-.searchButton {
+input {
 	color: green;
+}
+
+.textInput {
+	color: black;
 }
 
 /* Footer styles 
